@@ -1,7 +1,7 @@
 import sc2
 
-
 class ExampleBot(sc2.BotAI):
+
     async def on_step(self, iteration):
         # On first step, send all workers to attack enemy start location
         if iteration == 0:
