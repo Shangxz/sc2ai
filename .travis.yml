@@ -1,1 +1,6 @@
 language: python
+
+notifications:
+  email:
+    - shangxz@umich.edu
+  on_failure: always # default: always
